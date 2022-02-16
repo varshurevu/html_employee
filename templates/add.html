@@ -1,9 +1,16 @@
 <html>  
 <head>  
-    <title>Add Employee</title>  
-</head>  
-<body>  
-    <h2>Employee Information</h2>   
+    <title>Add Employee</title>
+<!--    <style type="text/css">-->
+<!--            body {-->
+<!--                background-image: url('{{STATIC_URL}}img/image.jpg');-->
+<!--                background-repeat: no-repeat;-->
+<!--            }-->
+<!--        </style>-->
+</head>
+<body background="image.jpg">
+
+    <h2>Employee Information</h2>
     <form action = "/savedetails" method="POST">   
     <table>  
         <tr><td>Name</td><td><input type="text" name="name"></td></tr>  
@@ -13,4 +20,5 @@
     </table>  
     </form>  
 </body>
+
 </html>
